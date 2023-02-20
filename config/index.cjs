@@ -7,7 +7,7 @@
  */
 const USER_CONFIG = {
 
-  USE_PASSAGE: 'push-deer',
+  USE_PASSAGE: 'wechat-test',
   // 使用微信测试号：公众号APP_ID
   APP_ID: 'wxb0029575f4615aa2',
 
@@ -22,9 +22,9 @@ const USER_CONFIG = {
       // 想要发送的人的名字
       name: '睡不饱宝公主',
       // 使用微信测试号：扫码关注你的微信测试号后生成的一段字符串，在测试号后台能看到
-      id: 'PDU20323TOL9p6EdriKxXIQ8cZjzxt4dEXtFSo8qO',
+      id: 'oG0pV6DGdFFc0SzM4CJSgYEkBHE4',
       // 使用微信测试号：你想对他发送的模板消息的模板ID
-      useTemplateId: '0001',
+      useTemplateId: '1DClwNzbPxooMqPwdwbHKPL6WfeS0aflFBVq9U-hlqs',
       // 新历生日, 仅用作获取星座运势, 格式必须为MM-DD
       horoscopeDate: '05-14',
       festivals: [
@@ -32,10 +32,7 @@ const USER_CONFIG = {
         {
           type: '*生日', name: '宝贝', year: '1997', date: '05-14',
         },
-        // 注意：此条配置日期为阳历日期，因为`type`中 “生日” 之前没有 * 符号
-        {
-          type: '生日', name: '李四', year: '1996', date: '09-31',
-        },
+        //纪念日
         {
           type: '节日', name: '相识纪念日', year: '2022', date: '12-26',
         },
@@ -52,13 +49,13 @@ const USER_CONFIG = {
 
 
   // 【推送完成提醒】模板id, 用来看自己有没有发送成功的那个模板
-  CALLBACK_TEMPLATE_ID: '0002',
+  CALLBACK_TEMPLATE_ID: '79nE6C33C8WUiUBHeTyxyu6q4EugQcpLLA179F77B9M',
 
   CALLBACK_USERS: [
     {
       name: '主人',
       // 使用微信测试号：自己的微信id，扫码关注你的微信测试号后生成的一段字符串，在测试号后台能看到
-      id: 'PDU20323TOL9p6EdriKxXIQ8cZjzxt4dEXtFSo8qO',
+      id: 'oG0pV6DGdFFc0SzM4CJSgYEkBHE4',
     }
   ],
 

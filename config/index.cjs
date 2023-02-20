@@ -7,6 +7,7 @@
  */
 const USER_CONFIG = {
 
+  USE_PASSAGE: 'push-deer',
   // 使用微信测试号：公众号APP_ID
   APP_ID: 'wxb0029575f4615aa2',
 
@@ -21,7 +22,7 @@ const USER_CONFIG = {
       // 想要发送的人的名字
       name: '睡不饱宝公主',
       // 使用微信测试号：扫码关注你的微信测试号后生成的一段字符串，在测试号后台能看到
-      id: 'oG0pV6DGdFFc0SzM4CJSgYEkBHE4',
+      id: 'PDU20323TOL9p6EdriKxXIQ8cZjzxt4dEXtFSo8qO',
       // 使用微信测试号：你想对他发送的模板消息的模板ID
       useTemplateId: '0001',
       // 新历生日, 仅用作获取星座运势, 格式必须为MM-DD
@@ -55,9 +56,9 @@ const USER_CONFIG = {
 
   CALLBACK_USERS: [
     {
-      name: 'oG0pV6DGdFFc0SzM4CJSgYEkBHE4',
+      name: '主人',
       // 使用微信测试号：自己的微信id，扫码关注你的微信测试号后生成的一段字符串，在测试号后台能看到
-      id: '',
+      id: 'PDU20323TOL9p6EdriKxXIQ8cZjzxt4dEXtFSo8qO',
     }
   ],
 
